@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
-    <title>Document</title>
+    <link rel="icon" href="images/logo.jpg" />
+    <meta
+      name="description"
+      content="Making affordable drinks to take you anywhere, anytime with anyone instantly from thirsty to ahhh."
+    />
+    <meta
+      name="og:title"
+      content="From Thirsty to Ahhh | Derrick's Beverages"
+    />
+    <meta
+      name="og:description"
+      content="Making affordable drinks to take you anywhere, anytime with anyone instantly from thirsty to ahhh."
+    />
+    <meta
+      name="og:image"
+      content="https://www.lumazalabs.github.io/derricks-drinks/public/images/logo.jpg"
+    />
+    <title>From Thirsty to Ahhh | Derrick's Beverages</title>
   </head>
   <body>
-    <header class="pt-4">
+    <header class="pt-6">
       <!-- lg+ -->
       <div class="relative bg-transparent max-w-7xl mx-auto">
         <div class="absolute inset-0"></div>
@@ -20,7 +37,7 @@
             <div class="flex-shrink-0">
               <a href="index.html" title="" class="flex">
                 <img
-                  class="w-auto h-28 lg:h-32 xl:h-40"
+                  class="w-auto h-32 lg:h-40 xl:h-52"
                   src="images/logo.jpg"
                   alt="Derrick's Drinks Logo"
                 />
@@ -89,7 +106,7 @@
       <!-- xs to lg -->
       <nav
         id="phone-menu"
-        class="hidden ease-in flex-col w-screen h-screen fixed overflow-hidden top-0 right-0 z-10 px-10 py-10 bg-gray-50 sm:px-6"
+        class="hidden ease-in flex-col w-screen h-screen fixed overflow-hidden top-0 right-0 z-10 px-10 py-10 bg-white sm:px-6"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -108,45 +125,55 @@
         </svg>
 
         <div class="flex flex-col flex-grow h-full items-end">
-          <nav class="flex flex-col space-y-2 items-end">
-            <a
-              id="sub-menu"
-              href="index.html#flavours"
-              title="Find out what flavours we have to offer!"
-              class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
-            >
-              Flavours
-            </a>
+          <div class="flex flex-col justify-between h-full">
+            <nav class="flex flex-col gap-2 items-end">
+              <a
+                id="sub-menu"
+                href="index.html#flavours"
+                title="Find out what flavours we have to offer!"
+                class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1"
+              >
+                Flavours
+              </a>
 
-            <a
-              id="sub-menu-1"
-              href="index.html#about-us"
-              title="Learn more about what we're all about at Derrick's Juice."
-              class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1 sub-menu"
-            >
-              About Us
-            </a>
+              <a
+                id="sub-menu-1"
+                href="index.html#about-us"
+                title="Learn more about what we're all about at Derrick's Juice."
+                class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1 sub-menu"
+              >
+                About Us
+              </a>
 
-            <a
-              id="sub-menu-2"
-              href="index.html#contact-us"
-              title="Get in touch with us."
-              class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1 sub-menu"
-            >
-              Contact Us
-            </a>
-          </nav>
+              <a
+                id="sub-menu-2"
+                href="index.html#contact-us"
+                title="Get in touch with us."
+                class="flex py-2 font-medium transition-all duration-200 hover:translate-x-1 focus:translate-x-1 sub-menu"
+              >
+                Contact Us
+              </a>
 
-          <div class="flex flex-col mt-6">
-            <a
-              id="sub-menu-3"
-              href="index.html#contact-us"
-              title="Buy one of our drinks to take you from thirsty to ahhh."
-              class="inline-flex items-end justify-center px-8 py-2.5 text-base font-medium bg-red text-white transition-all duration-200 border border-transparent rounded-full hover:bg-opacity-90 focus:bg-opacity-90 sub-menu"
-              role="button"
-            >
-              Buy Now
-            </a>
+              <a
+                id="sub-menu-3"
+                href="index.html#contact-us"
+                title="Buy one of our drinks to take you from thirsty to ahhh."
+                class="inline-flex items-end justify-center px-8 py-2.5 text-base font-medium bg-red text-white transition-all duration-200 border border-transparent rounded-full hover:bg-opacity-90 focus:bg-opacity-90 sub-menu mt-4"
+                role="button"
+              >
+                Buy Now
+              </a>
+            </nav>
+            <div class="pt-10">
+              <img
+                class="w-auto h-36 lg:h-40 xl:h-44 ml-auto"
+                src="images/logo.jpg"
+                alt="Derrick's Drinks Logo"
+              />
+              <p class="text-base font-medium relative -top-2">
+                Derrick's Beverages © <span id="year">2023</span>
+              </p>
+            </div>
           </div>
         </div>
       </nav>
@@ -171,7 +198,7 @@
       </div>
     </section>
 
-    <section class="py-12 sm:py-16 lg:py-20 xl:py-24" id="flavours">
+    <section class="py-12 sm:py-16 lg:py-20 xl:py-24 bg-gray-50" id="flavours">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <h1
           class="mt-6 text-3xl font-bold tracking-tight lg:mt-8 sm:text-4xl lg:text-5xl xl:text-6xl text-center text-blue"
@@ -195,9 +222,8 @@
             <div class="">
               <h3 class="text-4xl font-bold text-adopt mb-5 text-blue">COLA</h3>
               <button
-                id="btn-cola"
                 title="View the nutritional information of our cola soda."
-                class="text-base font-medium text-blue transition-all duration-200 bg-adopt border border-transparent rounded-md flex items-center group"
+                class="table-btn text-base font-medium text-blue transition-all duration-200 bg-adopt border border-transparent rounded-md flex items-center group"
                 role="button"
               >
                 <p class="font-semi-bold">View More</p>
@@ -207,7 +233,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="2"
                   stroke="currentColor"
-                  class="w-6 h-6 text-blue group-focus:rotate-180 transition-all"
+                  class="w-6 h-6 text-blue transition-all chevron"
                 >
                   <path
                     stroke-linecap="round"
@@ -216,8 +242,63 @@
                   />
                 </svg>
               </button>
-              <div>
-                <p></p>
+              <div class="bg-white w-10/12 p-5 mt-10 hidden nutritional-table">
+                <p
+                  class="mt-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                >
+                  Nutritional
+                </p>
+                <div>
+                  <table class="w-full">
+                    <thead>
+                      <tr class="border-b-4 border-gray-600">
+                        <th class="text-left py-4">Serving Size</th>
+                        <th class="text-right py-4">per 100ml</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-4">Calories</th>
+                        <th class="text-right py-4">148kJ</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Fat</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Protein</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Carbohydrates</th>
+                        <th class="text-right py-2">9.8g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Sugar</th>
+                        <th class="text-right py-2">7.5</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2 font-normal">
+                          Dietary Fibre
+                        </th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-2 pb-4">Salt</th>
+                        <th class="text-right py-2 pb-4">4.1g</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p
+                    class="py-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                  >
+                    Ingredients
+                  </p>
+                  <p class="pb-6">
+                    Carbonated water, Sugar, Caramel Colour, Phosphoric Acid,
+                    Caffeine & Natural FLavour
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -235,14 +316,13 @@
               />
             </div>
 
-            <div class="text-center">
+            <div class="flex flex-col items-center md:items-start w-full">
               <h3 class="text-4xl font-bold text-adopt mb-5 text-blue">
                 ORANGE SODA
               </h3>
               <button
-                id="btn-orange"
                 title="View the nutritional information of our cola soda."
-                class="text-base font-medium text-blue transition-all duration-200 rounded-md flex items-center group"
+                class="text-base font-medium text-blue transition-all duration-200 rounded-md flex items-center group table-btn"
                 role="button"
               >
                 <p class="font-semi-bold">View More</p>
@@ -252,7 +332,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="2"
                   stroke="currentColor"
-                  class="w-6 h-6 text-blue group-focus:rotate-180 transition-all"
+                  class="w-6 h-6 text-blue transition-all chevron"
                 >
                   <path
                     stroke-linecap="round"
@@ -261,8 +341,63 @@
                   />
                 </svg>
               </button>
-              <div>
-                <p></p>
+              <div class="bg-white w-10/12 p-5 mt-10 hidden nutritional-table">
+                <p
+                  class="mt-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                >
+                  Nutritional
+                </p>
+                <div>
+                  <table class="w-full">
+                    <thead>
+                      <tr class="border-b-4 border-gray-600">
+                        <th class="text-left py-4">Serving Size</th>
+                        <th class="text-right py-4">per 100ml</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-4">Calories</th>
+                        <th class="text-right py-4">127kJ</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Fat</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Protein</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Carbohydrates</th>
+                        <th class="text-right py-2">8g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Sugars</th>
+                        <th class="text-right py-2">7.5g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2 font-normal">
+                          Dietary Fibre
+                        </th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-2 pb-4">Salt</th>
+                        <th class="text-right py-2 pb-4">6g</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p
+                    class="py-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                  >
+                    Ingredients
+                  </p>
+                  <p class="pb-6">
+                    Carbonated water, Sugar, Caramel Colour, Phosphoric Acid,
+                    Caffeine & Natural FLavour
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -279,14 +414,13 @@
                 class="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 h-2/3 w-auto"
               />
             </div>
-            <div class="">
+            <div class="flex flex-col items-center md:items-start w-full">
               <h3 class="text-4xl font-bold text-adopt mb-5 text-blue">
                 ORANGE JUICE
               </h3>
               <button
-                id="btn-orange-juice"
                 title="View the nutritional information of our cola soda."
-                class="text-base font-medium text-blue transition-all duration-200 bg-adopt border border-transparent rounded-md flex items-center group"
+                class="table-btn text-base font-medium text-blue transition-all duration-200 bg-adopt border border-transparent rounded-md flex items-center group"
                 role="button"
               >
                 <p class="font-semi-bold">View More</p>
@@ -296,7 +430,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="2"
                   stroke="currentColor"
-                  class="w-6 h-6 text-blue group-focus:rotate-180 transition-all"
+                  class="w-6 h-6 text-blue transition-all chevron"
                 >
                   <path
                     stroke-linecap="round"
@@ -305,8 +439,63 @@
                   />
                 </svg>
               </button>
-              <div>
-                <p></p>
+              <div class="bg-white w-10/12 p-5 mt-10 nutritional-table hidden">
+                <p
+                  class="mt-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                >
+                  Nutritional
+                </p>
+                <div class="">
+                  <table class="w-full">
+                    <thead>
+                      <tr class="border-b-4 border-gray-600">
+                        <th class="text-left py-4">Serving Size</th>
+                        <th class="text-right py-4">per 100ml</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-4">Calories</th>
+                        <th class="text-right py-4">127kJ</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Fat</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Protein</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Carbohydrates</th>
+                        <th class="text-right py-2">8g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Sugars</th>
+                        <th class="text-right py-2">7.5g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2 font-normal">
+                          Dietary Fibre
+                        </th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-2 pb-4 font-normal">Salt</th>
+                        <th class="text-right py-2 pb-4">6g</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p
+                    class="py-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                  >
+                    Ingredients
+                  </p>
+                  <p class="pb-6">
+                    Carbonated water, Sugar, Caramel Colour, Phosphoric Acid,
+                    Caffeine & Natural FLavour
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -324,14 +513,13 @@
               />
             </div>
 
-            <div class="text-center">
+            <div class="flex flex-col items-center md:items-start">
               <h3 class="text-4xl font-bold text-adopt mb-5 text-blue">
                 WATER
               </h3>
               <button
-                id="btn-water"
                 title="View the nutritional information of our cola soda."
-                class="text-base font-medium text-blue transition-all duration-200 rounded-md flex items-center group"
+                class="table-btn text-base font-medium text-blue transition-all duration-200 rounded-md flex items-center group"
                 role="button"
               >
                 <p class="font-semi-bold">View More</p>
@@ -341,7 +529,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="2"
                   stroke="currentColor"
-                  class="w-6 h-6 text-blue group-focus:rotate-180 transition-all"
+                  class="w-6 h-6 text-blue transition-all chevron"
                 >
                   <path
                     stroke-linecap="round"
@@ -350,8 +538,63 @@
                   />
                 </svg>
               </button>
-              <div>
-                <p></p>
+              <div class="bg-white w-10/12 p-5 mt-10 hidden nutritional-table">
+                <p
+                  class="mt-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                >
+                  Nutritional
+                </p>
+                <div>
+                  <table class="w-full">
+                    <thead>
+                      <tr class="border-b-4 border-gray-600">
+                        <th class="text-left py-4">Serving Size</th>
+                        <th class="text-right py-4">per 100ml</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-4">Calories</th>
+                        <th class="text-right py-4">127kJ</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Fat</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Protein</th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Carbohydrates</th>
+                        <th class="text-right py-2">8g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2">Total Sugars</th>
+                        <th class="text-right py-2">7.5g</th>
+                      </tr>
+                      <tr class="">
+                        <th class="text-left py-2 font-normal">
+                          Dietary Fibre
+                        </th>
+                        <th class="text-right py-2">0g</th>
+                      </tr>
+                      <tr class="border-b border-gray-800">
+                        <th class="text-left py-2 pb-4 font-normal">Salt</th>
+                        <th class="text-right py-2 pb-4">6g</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p
+                    class="py-6 text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-black"
+                  >
+                    Ingredients
+                  </p>
+                  <p class="pb-6">
+                    Carbonated water, Sugar, Caramel Colour, Phosphoric Acid,
+                    Caffeine & Natural FLavour
+                  </p>
+                </div>
               </div>
             </div>
           </div>
