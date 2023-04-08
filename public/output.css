@@ -729,10 +729,6 @@ video {
   place-items: center;
 }
 
-.items-start{
-  align-items: flex-start;
-}
-
 .items-end{
   align-items: flex-end;
 }
@@ -753,20 +749,16 @@ video {
   justify-items: center;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
-.gap-2{
-  gap: 0.5rem;
-}
-
 .gap-1{
   gap: 0.25rem;
 }
 
 .gap-16{
   gap: 4rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-y-16{
@@ -1227,11 +1219,6 @@ video {
     padding-right: 3rem;
   }
 
-  .md\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -1335,11 +1322,6 @@ video {
 
   .lg\:text-lg{
     font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
