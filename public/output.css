@@ -518,10 +518,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.rotate-180 {
-  rotate: 180;
-}
-
 .fixed{
   position: fixed;
 }
@@ -713,11 +709,6 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-180{
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .resize-y{
   resize: vertical;
 }
@@ -760,10 +751,6 @@ video {
 
 .justify-items-center{
   justify-items: center;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .gap-16{
@@ -1209,6 +1196,10 @@ video {
 
   .md\:items-end{
     align-items: flex-end;
+  }
+
+  .md\:gap-1{
+    gap: 0.25rem;
   }
 
   .md\:gap-4{
